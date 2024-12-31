@@ -1,0 +1,86 @@
+/* sidebar.css */
+.sidebar {
+  background-color: #010a1b; /* Dark background color */
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Padding around the content */
+  position: fixed; /* Fixed position on the left */
+  height: 100%; /* Full height */
+  overflow-y: auto; /* Scroll if content overflows */
+  transition: width 0.2s; /* Smooth transition for width changes */
+}
+
+.resize-handle {
+  width: 5px; /* Width of the resize handle */
+  background-color: #555; /* Color of the handle */
+  cursor: ew-resize; /* Change cursor on hover */
+  height: 100%; /* Full height of the sidebar */
+  position: absolute;
+  right: 0; /* Position it at the right edge of the sidebar */
+  top: 0; /* Align to the top */
+}
+.profile {
+text-align: center; /* Center the profile text */
+margin-bottom: 20px; /* Space below the profile section */
+margin-top: 100px;
+}
+
+.profile h2 {
+margin: 0; /* Remove default margin */
+font-size: 1.5rem; /* Font size for name */
+color: white;
+}
+
+.profile p {
+margin: 5px 0; /* Space between lines */
+font-size: 0.9rem; /* Font size for subtitle */
+}
+
+.social-icons {
+display: flex; /* Flexbox for social icons */
+justify-content: center; /* Center the icons */
+margin-bottom: 20px; /* Space below social icons */
+}
+
+.social-icons svg {
+margin: 0 10px; /* Space between icons */
+cursor: pointer; /* Cursor changes to pointer */
+transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-icons svg:hover {
+color: #61dafb; /* Change color on hover */
+}
+
+.menu {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.menu button {
+background-color: transparent; /* Transparent background */
+color: white; /* Text color */
+border: none; /* No border */
+padding: 10px; /* Padding inside the button */
+font-size: 1rem; /* Font size for buttons */
+cursor: pointer; /* Cursor changes to pointer */
+text-align: left; /* Align text to the left */
+transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.menu button:hover {
+background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+color: #61dafb; /* Change text color on hover */
+}
+
+.menu button svg {
+margin-right: 10px; /* Space between icon and text */
+}
+.profile-image {
+    width: 80px; /* Set the width of the profile image */
+    height: 80px; /* Set the height of the profile image */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 10px; /* Space below the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+  }

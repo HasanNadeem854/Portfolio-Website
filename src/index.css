@@ -1,0 +1,31 @@
+/* index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* App Component Styles */
+.app {
+  display: flex; /* Use flexbox for layout */
+  height: 100%; /* Full height */
+}
+
+.main-content {
+  background-image: url('./360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.webp');
+  width: calc(100% - var(--sidebar-width));
+  min-height: 100vh;
+  background-size:cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; 
+
+  flex: 1; /* Take the remaining space */
+  padding: 20px; /* Optional padding */
+  /*background-color: #f0f0f0;  Background color for main content */
+  transition: margin-left 0.2s; /* Smooth transition for margin changes */
+}
+.main-content h1{
+  color:white;
+}

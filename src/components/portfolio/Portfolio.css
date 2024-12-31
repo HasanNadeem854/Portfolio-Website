@@ -1,0 +1,70 @@
+/* Portfolio.css */
+.page-content {
+  padding: 20px;
+}
+
+h2, h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.project-details {
+  padding: 15px;
+  flex: 1;
+}
+
+.project-details h4 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.project-details p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.github-link {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+.portfolio.page-content h2 {
+  color: #f8f6f5; /* Set your desired color for h2 */
+}
+
+.portfolio.page-content h3 {
+  color: #eaecec; /* Set your desired color for h3 */
+}
+
