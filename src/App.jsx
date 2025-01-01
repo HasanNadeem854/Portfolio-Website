@@ -6,6 +6,8 @@ import ContactMe from './components/contact/ContactMe'; // Import the Contact Me
 import DataScienceProjects from './components/data/DataScienceProjects'; // Import Data Science Projects component
 import './index.css';
 
+
+
 function App() {
   const [section, setSection] = useState('home'); // State to track selected section
   const [sidebarWidth, setSidebarWidth] = useState(350); // Initial sidebar width
